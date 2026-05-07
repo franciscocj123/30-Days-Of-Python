@@ -66,3 +66,29 @@ elif students_grade <= 59:
     print("You have a D")
 """   
 
+#2
+#Get the month from user input then check if the season is Autumn, Winter, 
+#Spring or Summer. If the user input is: September, October or November, the 
+#season is Autumn. December, January or February, the season is Winter. March,
+#April or May, the season is Spring June, July or August, the season is Summer
+
+
+users_month = input("Enter month to check season: ").lower()
+
+if users_month in ["september", "october", "november"]:
+    print("The seaon is Autumn")
+elif users_month in ["december", "january", "february"]:
+    print("The season is Winter")
+elif users_month in ["march", "april", "may"]:
+    print("The season is Spring")
+elif users_month in ["june", "july", 'august']:
+    print("The season is Summer")
+
+
+
+
+
+
+
+
+
